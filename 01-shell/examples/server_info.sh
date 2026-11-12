@@ -15,3 +15,7 @@ echo "Linux operating system information: $(cat /etc/os-release)"
 
 echo "------------------------------------"
 echo "System uptime: $(uptime)"
+
+echo "------------------------------------"
+echo "Disk usage information:"
+df -h   
